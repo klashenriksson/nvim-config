@@ -1,4 +1,5 @@
 require("remap")
+require("set")
 
 -- BEGIN LAZY nvim plugin loader
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
