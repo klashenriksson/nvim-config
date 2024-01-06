@@ -1,6 +1,9 @@
 require("remap")
 require("set")
 
+-- SET ENGLISH LANGUAGE
+vim.api.nvim_exec("language en_US", true)
+
 -- BEGIN LAZY nvim plugin loader
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
