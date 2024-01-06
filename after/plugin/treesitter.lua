@@ -1,7 +1,10 @@
+require('nvim-treesitter.install').prefer_git = false
+require 'nvim-treesitter.install'.compilers = { "clang" }
+
 local configs = require("nvim-treesitter.configs")
 configs.setup {
   -- Add a language of your choice
-  ensure_installed = {"cpp", "python", "lua", "java", "javascript", "rust", "toml", },
+  ensure_installed = {"python", "lua", "rust", "toml", },
   sync_install = false,
   ignore_install = { "" }, -- List of parsers to ignore installing
   highlight = {
