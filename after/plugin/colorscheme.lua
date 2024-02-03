@@ -1,2 +1,3 @@
-require('rose-pine').setup({disable_italics=true})
-vim.cmd('colorscheme rose-pine-moon')
+require('onenord').setup({disable_italics=true})
+vim.cmd('colorscheme rose-pine')
+vim.cmd('set background=light')
