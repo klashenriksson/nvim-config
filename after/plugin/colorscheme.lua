@@ -1,3 +1,3 @@
 require('onenord').setup({disable_italics=true})
-vim.cmd('colorscheme rose-pine')
+vim.cmd('colorscheme kanagawa')
 vim.cmd('set background=light')
