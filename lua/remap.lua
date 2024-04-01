@@ -5,7 +5,3 @@ vim.keymap.set("n", "t", ":FloatermToggle terminal<CR>")
 vim.keymap.set("n", "<leader>fn", ":FloatermNext<CR>")
 vim.keymap.set("n", "<leader>fp", ":FloatermPrev<CR>")
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>:q<CR>")
-vim.keymap.set("i", "kj", "<Esc>")
-vim.keymap.set("v", "kj", "<Esc>")
-vim.keymap.set("t", "kj", "<C-\\><C-n>:q<CR>")
-
