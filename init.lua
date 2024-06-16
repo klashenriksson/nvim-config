@@ -20,3 +20,11 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
 -- END LAZY
+
+-- Register WGSL filetype
+vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
+  pattern = "*.wgsl",
+  callback = function()
+    vim.bo.filetype = "wgsl"
+  end,
+})
