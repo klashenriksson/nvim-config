@@ -1,4 +1,6 @@
 vim.keymap.set("n", "<leader>xx", function() require("trouble").toggle("diagnostics") end)
+vim.keymap.set("n", "<leader>xt", "<cmd>Trouble todo<cr>")
 vim.keymap.set("n", "<leader>xq", function() require("trouble").toggle("quickfix") end)
+vim.keymap.set("n", "<leader>xl", function() require("trouble").toggle("loclist") end)
 vim.keymap.set("n", "<leader>xl", function() require("trouble").toggle("loclist") end)
 vim.keymap.set("n", "gR", function() require("trouble").toggle("lsp_references") end)
